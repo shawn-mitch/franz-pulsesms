@@ -1,0 +1,23 @@
+{
+  "id": "pulsesms",
+  "name": "Pulse SMS",
+  "version": "1.0.0",
+  "description": "Pulse SMS",
+  "main": "index.js",
+  "author": "Shawn Mitchell <shawn@citizenpixel.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://messenger.klinkerapps.com",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
